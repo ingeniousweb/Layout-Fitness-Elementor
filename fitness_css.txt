@@ -1,0 +1,24 @@
+/* CF7 styling */
+.free-visit-email{width: 100%; padding: 10px; margin-bottom: 10px;}
+.free-visit{background-color: #E93947 !important; padding: 10px !important; font-family: Montserrat; font-size: 18px; display: block; width: 100%;
+color: #ffffff; border: none;}
+.fitness-contact-form{}
+.fitness-contact-form input, .fitness-contact-form textarea{width:100%; padding:10px;}
+.contact-submit{width: 35% !important; float:right;}
+
+/* Set min height to zero on all elementor columns */
+.elementor-column{min-height:0 !important;}
+
+/* Sections styling */
+.half-white{color:#ffffff;}
+.trainers{z-index:5;}
+.phone-num{float:right; margin-top:-3%;}
+.elementor-editor-active .phone-num{float:right; margin-top: 0;}
+#curve-divider path{fill: #ffffff; stroke: #ffffff;}
+
+
+/* Set phone Number on Contact section */
+@media (max-width: 767px) { 
+.phone-num{width: 160px}
+.phone-num .elementor-icon-box-icon{float:left;}
+}
